@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Work+Sans:wght@300;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --font-family-merry: 'Merriweather', serif;
+}
+
+
+/* navbar styling start */
+
+header {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-nav li a {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.search i {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar-toggler {
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+.slideimg a,.heading a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.slideimg h2 {
+    font-size: 24px;
+    font-family: var(--font-family-merry);
+}
+
+.markets a span,
+.monsoon a span,
+.sports a span,
+.conversation a span {
+    font-size: 12px;
+    color: #4774A8;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.markets a p,
+.monsoon a p,
+.sports a p,
+.conversation a p {
+    font-size: 16px;
+    font-family: var(--font-family-merry);
+    text-decoration: none;
+}
+
+.by {
+    font-size: 12px;
+}
+.nbn{
+    background: url("images/NBN-logo6.jpg")no-repeat;
+}
+.nbn h2{
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+}
+.nbn h3{
+    font-size: 14px;
+    font-family: var(--font-family-merry);
+}
+.forbes-p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.forbes-author{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    color: #737373;
+}
+
+.forb-img{
+    position: relative;
+}
+
+.forb-img img{
+    box-shadow: 0 3px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.podcast {
+    background-color: rgb(198, 193, 193);
+    border-bottom: 1px solid black,1px solid black;
+}
+
+.podcast h1,
+.img-content{
+    font-family: var(--font-family-merry);
+}
+
+.search i {
+    font-size: 20px;
+    color: white;
+}
+/* navbar styling end */
+.items{
+    /* border: 1px solid blue; */
+}
+.section-row2 h2{
+    color: #fff;
+    padding: 5px 10px;
+    margin: 15px 0;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.para-a a{
+    font-size:16px;
+    font-family: var(--font-family-merry);
+    color: #333333;
+}
+.para-content{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.prime-content p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+}
+
+.headings{
+    font-size: 42px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+
+}
+.see-more{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+text-decoration: underline;
+}
+
+.icon-link a{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.icon-link i{
+    font-size: 21px;
+}
+
+.images{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 992px) {
+    header{
+        position: relative;
+    }
+    .search{
+        position: absolute;
+        right: 20px;
+    }
+    .logo{
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .search{
+        right: 10px;
+    }
+}
