@@ -19,7 +19,9 @@ a {
     --font-family-merry: 'Merriweather', serif;
 }
 
-
+h3{
+    font-family: var(--font-family-merry);
+}
 /* navbar styling start */
 
 header {
@@ -183,6 +185,16 @@ text-decoration: underline;
     justify-content: center;
     align-items: center;
 }
+
+.prioritise{
+    border-bottom: 2px dashed black;
+}
+
+.morestory{
+    border-bottom: 20px solid rgb(187, 185, 185);
+}
+
+
 @media only screen and (max-width: 992px) {
     header{
         position: relative;
@@ -199,5 +211,13 @@ text-decoration: underline;
 @media only screen and (max-width: 992px){
     .search{
         right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 575px){
+    .slide1{
+        display: flex;
+        flex-direction: column;
     }
 }
