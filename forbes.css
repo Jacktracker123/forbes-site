@@ -18,9 +18,13 @@ a {
 :root {
     --font-family-merry: 'Merriweather', serif;
 }
-
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+}
 h3{
-    font-family: var(--font-family-merry);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
 }
 /* navbar styling start */
 
@@ -204,6 +208,28 @@ text-decoration: underline;
 .image-border{
     border: 1px solid #dfdfdf;
 }
+.magazine{
+    border: 20px solid rgb(187, 185, 185); 
+}
+
+.copy{
+    font-family: WorkSansRegular;
+    font-size: 12px;
+    color: #666;
+    display: inline-flex;
+}
+.foot-1{
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin-top: 500px;
+
+
+
+}
+
+
+
+
 
 @media only screen and (max-width: 992px) {
     header{
@@ -218,11 +244,5 @@ text-decoration: underline;
     }
     .search{
         right: 10px;
-    }
-}
-
-@media only screen and (max-width:768px){
-    .green-billions{
-        display: none;
     }
 }
