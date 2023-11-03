@@ -77,7 +77,8 @@ header {
 .markets a p,
 .monsoon a p,
 .sports a p,
-.conversation a p {
+.conversation a p,
+.content a{
     font-size: 16px;
     font-family: var(--font-family-merry);
     text-decoration: none;
@@ -222,14 +223,26 @@ text-decoration: underline;
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
     margin-top: 500px;
-
-
-
 }
-
-
-
-
+.work-a{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+font-weight: bolder;
+text-decoration: underline;
+}
+.content,.list{
+    margin: 20px;
+}
+.left-a ul li,.right-a ul li{
+margin: 5px;
+}
+.left-a ul li a,.right-a ul li a{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+color: #666666;
+font-weight: bolder;
+text-decoration: underline;
+}
 
 @media only screen and (max-width: 992px) {
     header{
