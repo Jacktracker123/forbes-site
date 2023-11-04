@@ -278,3 +278,11 @@ h3 a{
         right: 10px;
     }
 }
+
+@media only screen and (max-width:768px){
+
+.more-flex{
+    display: block;
+}
+
+}
